@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <h1>Register Form</h1>
+    <div id="login">
+        <p>If you already registered<a href="./login.html"> click here</a> to login</p>
+    </div>
+    <form id="reg-form">
+        <label for="name">Enter Name:</label>
+        <input type="text" id="name" name="name" placeholder="Name" required>
+        <label for="email">Enter Email:</label>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+        <label for="pass">Enter Password:</label>
+        <input type="password" placeholder="Password" id="password" autocomplete="on" required>
+        <label for="age">Enter Age</label>
+        <input type="text" name="age" id="age" placeholder="Age" required>
+        <button id="submit-btn"> Submit</button>
+    </form>
+</body>
+<script src="./register.js"></script>
+</html>

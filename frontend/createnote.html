@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Note</title>
+    <link rel="stylesheet" href="./showdata.css">
+  </head>
+  <body>
+    <h1>CreateNote</h1>
+    <form id="noteg-form">
+      <label for="title">Title</label>
+      <input
+        type="text"
+        id="title"
+        name="title"
+        placeholder="Title of Note"
+        required
+      />
+      <label for="note">Note</label>
+      <input
+        type="text"
+        name="note"
+        id="note"
+        placeholder="Enter the note here..."
+        required
+      />
+      <label for="cat">Category</label>
+      <input type="text" placeholder="Enter category" id="category" required />
+      <button id="submit-btn">Submit</button>
+    </form>
+    <h4>If you want see all notes click on below button</h4>
+    <div id="all-notes-button">
+        <button id="all-notes">All Notes</button>
+    </div>
+    <div id="all-notes-show">
+        
+    </div>
+      
+    
+    
+  </body>
+  <script src="./index.js"></script>
+</html>
